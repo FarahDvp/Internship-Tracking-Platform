@@ -1,0 +1,85 @@
+
+.custom-table {
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+  width: 100%;
+}
+
+.table_head,
+.colonne {
+  padding: 1em;
+  background: white;
+  border-bottom: 4px solid #d3d0d0;
+}
+
+.css-mine {
+  margin-top: 2em;
+  clear: both;
+}
+
+body {
+  margin: 1.5em;
+  background-color: #d3d0d0;
+}
+
+@media only screen and (max-width: 768px) {
+  /* display the table as a block */
+  .custom_table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  /* hide the table header */
+  .custom-table thead {
+    display: flex;
+  }
+  
+  /* display each table row as a block */
+  .custom-table tbody {
+    display: block;
+    width: auto;
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  /* display each cell as a block with a label */
+  .colonne:before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: inline-block;
+    width: 50%;
+    padding-right: 10px;
+    text-align: right;
+    white-space: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+  .list_btn{
+    
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  .list_btn:hover{
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+  }
+  .titre{
+margin-left: 40%;
+color: #0a58ca;
+  }

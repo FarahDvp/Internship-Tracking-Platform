@@ -1,0 +1,68 @@
+
+#userForm {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    float: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button {
+    background-color: #4caf50;
+  }
+  
+  .alert-container {
+    margin-top: 60px;
+  }
+  
+  /* Example styles for the alert */
+  .alert {
+    padding: 10px;
+    background-color: #f44336;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .alert.success {
+    background-color: #4caf50;
+  }

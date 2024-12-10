@@ -1,0 +1,183 @@
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+    margin: 10% auto;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.16);
+    box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.16);
+    border-radius: 30px;
+    background-color:rgb(255, 255, 255) ;
+    padding-block: 20px;
+}
+.title{
+    align-self: center;
+    font-family: "montserrat";
+    color: #4981f5;
+    font-size: 1.5vw;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5vw;
+}
+
+.top-part{
+    display: flex;
+    flex-direction: column;
+}
+
+.row-1 , .row-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-partS{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5vw;
+    width: 100%;
+    justify-content: center;
+}
+.signInput{
+    font-family: "montserrat";
+    padding-left: 10px;
+    color: #000000d2;
+    font-size: 0.8rem;
+    margin-bottom: 3.5vw;
+    width: 15.72vw;
+    height: 2.5rem;
+    border-width: 1.8px;
+    border-style: solid;
+    border-radius: 10px;
+    filter: drop-shadow(0.3vw 0.3vw 0.5vw rgba(0, 0, 0, 0.261));
+}
+
+.label{
+    font-size: 1.3vw;
+    color: #4981f5;
+    font-family: "montserrat";
+    padding-right: 10px;
+}
+
+.checkbox{ 
+    font: inherit;
+    color: #4981f5;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid #4981f5;
+    border-radius: 0.15em;
+}
+.redirect{
+    font-family: "montserrat";
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.8vw;
+}
+@media only screen and (max-width: 950px) {
+    .redirect {
+        font-size: 1.3vw;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .row-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .title{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    
+}
+.bold{
+    font-weight: 700;  
+    cursor: pointer;
+}
+.btn{
+    width: 30vw;
+    height: 3em;
+    border: none;
+    border-radius: 12.92vw;
+    box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.16);
+    background: #4981f5;
+    font-family: "montserrat";
+    font-weight: 800;
+    font-size: 1vw;
+    color: #ffffff;
+    align-self: center;
+    cursor: pointer;
+}
+@media only screen and (max-width: 850px) {
+    .btn {
+        font-size: 2vw;
+    }
+  }
+
+@media only screen and (max-width: 700px) {
+.signup-container {
+    width: 75%;
+    flex-direction: column;
+}
+.row-1 {
+    flex-direction: column;
+    align-items: center;
+}
+.signInput{
+   
+    min-width: 90%;
+    height: 2rem;
+   
+}
+.boolean{
+    margin: 0;
+}
+.label{
+    font-size: 0.7rem;
+}
+.btn{
+    width: 90%;
+    height: 100%;
+    font-size: 1rem;
+}
+.redirect{
+    font-size: 0.7rem;
+}
+
+}
+
+.error {
+position:relative;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'montserrat';
+color : red;
+background-color: #f1dcdc;
+width: 100% ;
+margin-top: 0;
+text-align: center;
+font-size: 1rem;
+height: 2em;
+border-radius: 10px;
+animation: fadeIn ease-in .5s;
+}
+@media only screen and (max-width: 470px) {
+    .error {
+        height: fit-content;
+    }
+  }
+
+@keyframes fadeIn {
+    0% { opacity: 0; 
+        margin-top: -50px;}
+    100% { opacity: 1;
+    margin-top:0 }
+  }
