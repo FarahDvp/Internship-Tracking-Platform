@@ -8,4 +8,4 @@ A platform to manage ISAMM students’ internships. It allows for internship cre
 - End-to-End Testing: Integrated Cypress for end-to-end testing, ensuring that the application operates smoothly and meets the required functionality.
 
 
-This project provides an efficient solution for managing internships and improving the workflow for both students and faculty at ISAMM
+This project provides an efficient solution for managing internships and improving the workflow for both students and faculty at ISAMM.
